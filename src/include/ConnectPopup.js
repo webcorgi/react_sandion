@@ -5,12 +5,12 @@ import icoWalletConnect from 'img/ico_walletconnect.png'
 import icoCoinbase from 'img/ico_coinbase.png'
 import arrow from 'img/ico_arr.png'
 
-function ConnectPopup({setisShow}) {
+function ConnectPopup({setisShowPopup}) {
 
     return (
         <div className="ConnectPopup">
             <div className="contents">
-                <button class="btn__close" onClick={() => setisShow(false)}>
+                <button class="btn__close" onClick={() => setisShowPopup(false)}>
                     <img src={close} alt="close" />
                 </button>
                 <h2>Connect a wallet</h2>
