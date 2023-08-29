@@ -167,6 +167,10 @@ main {
     padding: 5px 40px;
     position: relative;
     margin-top: 30px;
+    transition-duration: .5s;
+}
+.ConnectPopup .contents .btn__wallet:hover {
+    background: #ff6000;
 }
 .ConnectPopup .contents .btn__wallet .icon {}
 .ConnectPopup .contents .btn__wallet .name {
