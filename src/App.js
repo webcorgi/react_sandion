@@ -20,7 +20,7 @@ function App() {
   return (
     //  basename={process.env.PUBLIC_URL}
     //  
-    <BrowserRouter basename={'/sandion'}>
+    <BrowserRouter basename={'/react_sandion'}>
       <Wrapper>
         <ScrollTop />
         <Header />
