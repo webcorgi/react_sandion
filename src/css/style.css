@@ -1,4 +1,9 @@
 @charset "utf-8";
+
+button {
+    cursor:pointer;
+}
+
 body {
     overflow-x: hidden;
 }
