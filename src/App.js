@@ -19,8 +19,8 @@ import Dimension from 'pages/Dimension';
 function App() {
   return (
     //  basename={process.env.PUBLIC_URL}
-    //  basename={'/sandion'}
-    <BrowserRouter>
+    //  
+    <BrowserRouter basename={'/sandion'}>
       <Wrapper>
         <ScrollTop />
         <Header />
