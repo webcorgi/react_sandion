@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react_sandion/static/css/main.a865dd7a.css",
-    "main.js": "/react_sandion/static/js/main.49c60bcc.js",
+    "main.css": "/react_sandion/static/css/main.4395d414.css",
+    "main.js": "/react_sandion/static/js/main.c0da3ed8.js",
     "static/media/SANDION_Main_turn.mp4": "/react_sandion/static/media/SANDION_Main_turn.63565b39ebd58cde578c.mp4",
     "static/media/SANDION_Main_front.mp4": "/react_sandion/static/media/SANDION_Main_front.8490ed8fe62d83cb8aaf.mp4",
     "static/media/dimension_bg.png": "/react_sandion/static/media/dimension_bg.12d7e1afd5fd087896da.png",
@@ -19,11 +19,11 @@
     "static/media/mundial-thin.woff": "/react_sandion/static/media/mundial-thin.073b7b1e5d9bda22c0ab.woff",
     "static/media/mundial-bold.woff": "/react_sandion/static/media/mundial-bold.e47c8e13696292b7f2e2.woff",
     "index.html": "/react_sandion/index.html",
-    "main.a865dd7a.css.map": "/react_sandion/static/css/main.a865dd7a.css.map",
-    "main.49c60bcc.js.map": "/react_sandion/static/js/main.49c60bcc.js.map"
+    "main.4395d414.css.map": "/react_sandion/static/css/main.4395d414.css.map",
+    "main.c0da3ed8.js.map": "/react_sandion/static/js/main.c0da3ed8.js.map"
   },
   "entrypoints": [
-    "static/css/main.a865dd7a.css",
-    "static/js/main.49c60bcc.js"
+    "static/css/main.4395d414.css",
+    "static/js/main.c0da3ed8.js"
   ]
 }
