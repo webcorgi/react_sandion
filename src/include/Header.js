@@ -16,7 +16,7 @@ function Header({isPageDemension, setIsPageDemension}) {
                     <Link to="/dimension" className={isPageDemension==true ? 'active' : ''} onClick={() => setIsPageDemension(true)}>
                         DIMENSION
                     </Link>
-                    <a href='javascript:;' className={isShowPopup==true ? 'btn__connect active' : 'btn__connect'} onClick={() => setisShowPopup(true)} >
+                    <a className={isShowPopup==true ? 'btn__connect active' : 'btn__connect'} onClick={() => setisShowPopup(true)} >
                         CONNECT
                     </a>
                 </nav>

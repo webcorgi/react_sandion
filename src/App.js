@@ -15,7 +15,7 @@ function App() {
   const [isPageDemension, setIsPageDemension] = useState(false);
 
   return (
-    <BrowserRouter basename='react_sandion'>
+    <BrowserRouter>
       <Wrapper>
         <ScrollTop />
         <Header isPageDemension={isPageDemension} setIsPageDemension={setIsPageDemension} />

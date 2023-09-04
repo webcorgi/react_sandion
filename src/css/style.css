@@ -1,5 +1,7 @@
 @charset "utf-8";
 
+
+a,
 button {
     cursor:pointer;
 }
@@ -67,12 +69,29 @@ main {
     top: 56px;
     width: 100%;
     text-align: center;
+    cursor: default;
+}
+.btn__mainlogo img {
+    cursor:pointer;
 }
 
 /* dimension */
 .dimension {
+    background:url(../img/dimension_bg.png) bottom /cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
     padding:85px 75px;
-    background:#141713 url(../img/dimension_bg.png) bottom /contain no-repeat;
+}
+.dimension a {
+    cursor:default;
+}
+.dimension a span {
+    cursor:pointer;
+}
+.dimension a img {
+    cursor:pointer;
 }
 .dimension .box {
     display: flex;
@@ -81,22 +100,30 @@ main {
     margin-bottom: 60px;
 }
 .dimension .box .num {
-    color:#9e9a9f;
-    font-size:150px;
-    font-weight: 900;
     min-width: 260px;
     transition-duration:.5s;
     position: relative;
-    top:-65px;
+    top:0;
 }
-.dimension .box:hover .num{
+.dimension .box .num span {
+    display: inline-block;
+    color:#9e9a9f;
+    font-size:150px;
+    font-weight: 900;
+    line-height: 0.5;
+}
+.dimension .box.active .num span{
     color:#ff8604;
+}
+.dimension .box.active img:last-child {
+    opacity: 1 !important;
 }
 .dimension .box .img {
     overflow:hidden;
     border-radius: 20px;
     position: relative;
     box-shadow: 3px 20px 40px rgba(0,0,0,0.74);
+    width:calc(100% - 260px);
 }
 .dimension .box .img img {
     width: 100%;
@@ -112,9 +139,6 @@ main {
     position: absolute;
     top: 0;
     left: 0;
-}
-.dimension .box:hover img:last-child {
-    opacity: 1;
 }
 /* connect a wallet popup */
 .ConnectPopup {
