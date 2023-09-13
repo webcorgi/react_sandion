@@ -43,7 +43,7 @@ nav a {
 nav a.active,
 nav a:hover {
     background: #ff8604;
-    transform: scale(1.2);
+    transform: scale(1.06);
 }
 
 /* main */
@@ -185,7 +185,7 @@ main {
     text-align: center;
     letter-spacing: -0.7px;
     margin-top: 100px;
-    margin:70px 0 100px;
+    margin:70px 0 60px;
 }
 .ConnectPopup .contents .btn__wallet {
     display: flex;
@@ -212,4 +212,8 @@ main {
 .ConnectPopup .contents .btn__wallet .arrow {
     position: absolute;
     right: 40px;
+}
+.mainLogo_img{
+    max-width: 563px;
+    width: 100%;
 }

@@ -77,7 +77,7 @@ function Home() {
                 <img src={mainLogo} alt="sandion"
                     onMouseOver={()=> handleButtonOver()}
                     onMouseLeave={()=> handleButtonLeave()}
-                />
+                className="mainLogo_img" />
             </button>
             <FrontComponent />
             <TurnComponent />
