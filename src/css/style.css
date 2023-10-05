@@ -62,6 +62,11 @@ main {
 .video__turn.turn {
     z-index: 0;
 }
+
+.video__main.end {
+    z-index: 0;
+    display: none;
+}
 .btn__mainlogo {
     z-index: 10;
     background: none;
